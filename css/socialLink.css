@@ -1,0 +1,83 @@
+
+.SocialContainer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 35px;
+}
+
+.fa {
+    /* font-size: 35px; */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    /* box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.788); */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.fa-twitter {
+    color: #00acee;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.fa-envelope {
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.fa-youtube-play {
+    color: #c4302b;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+.fa-github {
+    color: #211f1f;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.678);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+}
+
+

@@ -1,0 +1,36 @@
+.image_container {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: Jolly Lodger;
+    /* text-align: right; */
+}
+h1:after {
+    position: absolute;
+    content: 'Manjarul Hoque';
+    z-index:150;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 2em;
+    right:2%;
+    top:33%;
+    
+}
+
+.nameContainer {
+    z-index: 110 !important;
+    color: white;
+}
